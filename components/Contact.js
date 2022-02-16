@@ -10,8 +10,8 @@ const Contact = () => {
         <div className="text-2xl font-bold text-gray-900 lg:text-5xl dark:text-white">
             <h1 className={styles.header}>Contact</h1>
             <div className={styles.spacing}>
-                <li>
-                    <Image src={Email} width={40} height={40}/>
+                <li className={styles.list}>
+                    <Image src={Email} width={25} height={25}/>
                     <a
                         href="mailto: heojay0309@gmail.com"
                         className={"transition-colors hover:text-yellow-500"}
@@ -21,7 +21,7 @@ const Contact = () => {
                         { } heojay0309@gmail.com
                     </a>
                 </li>
-                <li><Image src={LinkedIn} width={40} height={40}/>
+                <li className={styles.list}><Image src={LinkedIn} width={25} height={25} />
                            <a
                            href="https://www.linkedin.com/in/heo"
                            className={"transition-colors hover:text-yellow-500"}
@@ -31,7 +31,7 @@ const Contact = () => {
                             { } linkedin.com/in/heo
                        </a>
                 </li>
-                <li><Image src={GitHub} width={40} height={40}/>
+                <li className={styles.list}><Image src={GitHub} width={25} height={25}/>
                 <a
                             href="https://github.com/heojay0309"
                             className={"transition-colors hover:text-yellow-500"}
