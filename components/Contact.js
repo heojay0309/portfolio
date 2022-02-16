@@ -1,6 +1,5 @@
 import React from "react"
 import Image from "next/image"
-import profile from "../public/profile.jpeg"
 import Email from "../public/Email.png"
 import GitHub from "../public/GitHub.png"
 import LinkedIn from "../public/LinkedIn.png"
@@ -8,7 +7,7 @@ import styles from "../styles/contact.module.css"
 
 const Contact = () => {
     return (
-        <div>
+        <div className="text-2xl font-bold text-gray-900 lg:text-5xl dark:text-white">
             <h1 className={styles.header}>Contact</h1>
             <div className={styles.spacing}>
                 <li>

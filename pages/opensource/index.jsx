@@ -1,5 +1,5 @@
 import Head from 'next/head';
-import Project from "../../components/Project";
+import OpenSource from "../../components/OpenSource";
 
 export default function Home() {
     return (
@@ -10,7 +10,7 @@ export default function Home() {
         </Head>
         
         <main className="max-w-4xl mx-auto mt-16 antialiased">
-          <Project/>
+          <OpenSource/>
         </main>
       </div>
     )

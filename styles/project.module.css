@@ -28,36 +28,19 @@
 
 .grid1 {
     grid-area: header;
-    /* grid-column-start: 1;
-    grid-column-end: 3; */
     font-weight: bold;
     margin: auto;
-    color:rgb(255, 255, 255);
-    /* background-color: blanchedalmond; */
 }
 
 .grid2 {
     grid-area: sidebar;
-    /* grid-column-start: 4;
-    grid-column-end: 4; */
     font-weight: bold;
-    color:rgb(255, 255, 255);
-    /* background-color: blanchedalmond; */
 }
 .grid3 {
     grid-area: content;
-    /* grid-column-start: 4;
-    grid-column-end: 5; */
     font-weight: bold;
-    color:rgb(255, 255, 255);
-    /* background-color: blanchedalmond; */
 }
 .grid4 {
     grid-area: footer;
-    /* grid-column-start: 5;
-    grid-column-end: 6; */
-    /* background-color: white; */
     font-weight: bold;
-    color:rgb(255, 255, 255);
-    /* background-color: blanchedalmond; */
 }
