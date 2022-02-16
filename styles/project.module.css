@@ -1,0 +1,63 @@
+.gridContainer {
+    display: grid;
+    justify-content: center;
+    grid-template-columns: 300px 350px;
+    grid-auto-rows: minmax(250px, auto);
+    grid-gap: 10px;
+    grid-template-areas:
+        "header header"
+        "sidebar footer"
+        "sidebar footer"
+        "content content"
+}
+
+.font {
+    font-weight:normal;
+    font-size: 12px;
+}
+
+.a {
+    font-weight:bolder;
+    font-size:16px;
+    text-decoration: underline;
+}
+.h1 {
+    font-weight:bolder;
+    font-size:20px;
+}
+
+.grid1 {
+    grid-area: header;
+    /* grid-column-start: 1;
+    grid-column-end: 3; */
+    font-weight: bold;
+    margin: auto;
+    color:rgb(255, 255, 255);
+    /* background-color: blanchedalmond; */
+}
+
+.grid2 {
+    grid-area: sidebar;
+    /* grid-column-start: 4;
+    grid-column-end: 4; */
+    font-weight: bold;
+    color:rgb(255, 255, 255);
+    /* background-color: blanchedalmond; */
+}
+.grid3 {
+    grid-area: content;
+    /* grid-column-start: 4;
+    grid-column-end: 5; */
+    font-weight: bold;
+    color:rgb(255, 255, 255);
+    /* background-color: blanchedalmond; */
+}
+.grid4 {
+    grid-area: footer;
+    /* grid-column-start: 5;
+    grid-column-end: 6; */
+    /* background-color: white; */
+    font-weight: bold;
+    color:rgb(255, 255, 255);
+    /* background-color: blanchedalmond; */
+}
