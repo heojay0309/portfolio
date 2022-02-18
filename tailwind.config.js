@@ -1,6 +1,6 @@
 module.exports = {
   mode: 'jit',
-  purge: ['./pages/**/*.{js,ts,jsx,tsx}', './components/**/*.{js,ts,jsx,tsx}'],
+  purge: ['./pages/**/*.{js,jsx}', './components/**/*.{js,jsx}'],
   darkMode: 'class', // or 'media' or 'class'
   theme: {
     extend: {},
@@ -8,5 +8,6 @@ module.exports = {
   variants: {
     extend: {},
   },
+  tailwindConfig: './styles/tailwind.config.js',
   plugins: [],
 }
